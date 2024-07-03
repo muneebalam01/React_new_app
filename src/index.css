@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+ul li a {
+  text-decoration: none;;
+}
+.card {
+  border: 1px solid rgb(83, 78, 78);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(126, 110, 110);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card .card-img {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .car-title{
+  font-family: sans-serif;
+  margin: 0px;
+  color: rgb(85, 80, 80);
+}
+.card p {
+  margin: 0px;
+}
